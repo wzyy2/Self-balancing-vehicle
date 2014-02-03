@@ -1,0 +1,5 @@
+-c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork -I..\CMSIS -I..\User -I..\Libraries\inc -I..\Libraries\src -I..\MyLibaries 
+-I c:\Keil\ARM\RV31\INC 
+-I c:\Keil\ARM\CMSIS\Include 
+-I c:\Keil\ARM\Inc\ST\STM32F4xx 
+-DUSE_STDPERIPH_DRIVER -DSTM32F4XX -o "usart_config.o" --omf_browse "usart_config.crf" --depend "usart_config.d" "..\MyLibaries\Usart_config.c"
